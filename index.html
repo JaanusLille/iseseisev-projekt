@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>jooksmisrakendus</title>
+</head>
+<body>
+  <h1>Käesolev rakendus arvutab sisestatud aja ja teepikkuse järgi sinu jooksuringi keskmise kiiruse ja kulutatud kilokalorite arvu.</h1>
+
+  <div>
+    <p>Kui sa jooksid/jalutasid:
+    <input type="number" class="runningData" id="distance" value="1000" min="0" size="3">
+    meetrit <br><br>
+    ajaga:
+    <input type="number" class="runningData" id="time" value="60" min="0" size="3">
+    minutit, <br><br>
+    oled
+    <input type="number" class="runningData" id="height" value="180" min="0" size="3">
+    sentimeetrit kõrge ja <br><br> kaalud
+    <input type="number" class="runningData" id="weight" value="80" min="0" size="3">
+    kilogrammi, siis oli su kiirus <br><br>
+    <span class="results" id="speed"></span> meetrit minutis ja sa kulutasid
+    <span class="results" id="calories"></span> kilokalorit (kcal).</p><br>
+  </div>
+</body>
+</html>
