@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightBlue;
+}
+input{
+    font-weight: bold;
+    width: 10vw;
+    height: 25px;
+    border-radius: 100px;
+}
+p{
+    font-weight: bold;
+}
