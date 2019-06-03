@@ -31,9 +31,6 @@ let z;
 
 }
 
-var num = 5.56789;
-var n = num.toFixed(2);
-
 function findData() {
   speed = (distance.value/time.value);
 
